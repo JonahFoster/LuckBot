@@ -15,8 +15,6 @@ intents.members = True
 async def on_ready():
     print('Luckbot is online')
 
-@bot.slash_command(name = "test", description = "A test command.")
-async def test(ctx):
-    await ctx.respond("Test passed.")
+bot.load_extension('cogs.testcommands')
 
 bot.run(os.getenv("DISCORD_TOKEN"))
