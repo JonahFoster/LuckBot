@@ -20,7 +20,7 @@ class testCommands(commands.Cog): # Create the class for the cog
     # Sample Image Command
     @discord.slash_command(name = "testimage", description = "A test command.")
     async def testimage(self, ctx):
-        await ctx.respond(file=discord.File('C:/Users/jonah/Desktop/LuckBot/photos/cryingmj.jpeg'))
+        await ctx.respond(file=discord.File('photos/mj.jpeg'))
 
 def setup(bot):
     bot.add_cog(testCommands(bot)) # Add the cog to the bot
