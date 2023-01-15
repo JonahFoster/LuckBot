@@ -1,2 +1,3 @@
 # LuckBot
-Discord testing bot to learn more about Python
+Discord Bot that will respond to users chat commands.
+
